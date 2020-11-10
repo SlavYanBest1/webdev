@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background-image: url("../images/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: center center; */
+  text-align: center;
+}
+
+.container {
+  width: 1600px;
+  height: 788px;
+  margin: 0 auto;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    padding: 38px 0 37px;
+}
